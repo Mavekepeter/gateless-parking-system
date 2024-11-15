@@ -7,7 +7,7 @@ type Props = {
     children:React.ReactNode,
     href:string
 }
-function activeLink({children,href}:Props){
+function ActiveLink({children,href}:Props){
     const pathname = usePathname()
     const isActive = pathname === href ? 'bg-blue-600':''
   return (
@@ -17,4 +17,4 @@ function activeLink({children,href}:Props){
     )
 }
 
-export default activeLink
+export default ActiveLink

@@ -4,7 +4,7 @@ import {
     SheetContent,
     
   } from "@/components/ui/sheet"
-  import sidebar from '@/components/sidebar'
+import Sidebar from '@/components/sidebar'
 
 function Mobilesidebar({ open, setOpen} :{
     open: boolean,
@@ -13,7 +13,7 @@ function Mobilesidebar({ open, setOpen} :{
   return (
     <Sheet open={open} onOpenChange={setOpen}>
         <SheetContent side="left" className='p-0 w-[256px]'>
-            <sidebar/>
+            <Sidebar/>
         </SheetContent>
     </Sheet>
   )

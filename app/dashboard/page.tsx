@@ -1,10 +1,8 @@
 import React from 'react'
-
+import LocationMapViewPage from './location/tileview/page'
 const DashboardPage = () => {
   return (
-    <div>
-      Dashboardpage
-    </div>
+   <LoctionsTileviewPage/>
   )
 }
 
